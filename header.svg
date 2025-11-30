@@ -1,0 +1,109 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="glow" x="-150%" y="-150%" width="300%" height="300%">
+            <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <style>
+        .tech-text {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+            font-size: 36px;
+            font-weight: 600;
+            fill: #e0e0e0;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            opacity: 0;
+            transform-origin: center;
+            filter: url(#glow);
+        }
+
+        @keyframes scale-in {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+
+        @keyframes draw {
+            to { stroke-dashoffset: 0; }
+        }
+        
+        @keyframes power-up {
+            to { stroke-dashoffset: 0; }
+        }
+
+        @keyframes carousel {
+            0%   { opacity: 0; transform: translateY(15px); }
+            3.5% { opacity: 1; transform: translateY(0); }
+            16.67%{ opacity: 1; transform: translateY(0); }
+            20%  { opacity: 0; transform: translateY(-15px); }
+            100% { opacity: 0; }
+        }
+        
+        #main-group {
+            transform-origin: center;
+            animation: scale-in 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
+
+        .circle-path {
+            fill: none;
+            stroke-width: 12;
+            stroke-linecap: round;
+            stroke-dasharray: 240;
+            stroke-dashoffset: 240;
+            filter: url(#glow);
+        }
+
+        #arc1 { stroke: #8b5cf6; animation: draw 0.5s ease-out 0.8s forwards; }
+        #arc2 { stroke: #fbbd23; animation: draw 0.5s ease-out 1.3s forwards; }
+        #arc3 { stroke: #f87272; animation: draw 0.5s ease-out 1.8s forwards; }
+        #arc4 { stroke: #3abff8; animation: draw 0.5s ease-out 2.3s forwards; }
+        
+        .gauge-background {
+            fill: none;
+            stroke: #4a4a4a;
+            stroke-width: 4;
+            stroke-dasharray: 4, 10;
+        }
+
+        .gauge-power {
+            fill: none;
+            stroke: #00f6ff;
+            stroke-width: 5;
+            stroke-dasharray: 817;
+            stroke-dashoffset: 817;
+            filter: url(#glow);
+            animation: power-up 1.2s ease-in-out 2.6s forwards;
+        }
+
+        #text1 { animation: carousel 6s infinite ease-in-out 4.0s; }
+        #text2 { animation: carousel 6s infinite ease-in-out 5.0s; }
+        #text3 { animation: carousel 6s infinite ease-in-out 6.0s; }
+        #text4 { animation: carousel 6s infinite ease-in-out 7.0s; }
+        #text5 { animation: carousel 6s infinite ease-in-out 8.0s; }
+        #text6 { animation: carousel 6s infinite ease-in-out 9.0s; }
+    </style>
+    
+    <g id="main-group">
+        <circle cx="200" cy="200" r="150" fill="#2a2a2a" />
+        <g transform="rotate(-90 200 200)">
+            <circle class="gauge-background" cx="200" cy="200" r="130" />
+            <circle class="gauge-power" cx="200" cy="200" r="130" />
+        </g>
+        <g transform="rotate(-90 200 200)">
+            <path id="arc1" class="circle-path" d="M 200 50 A 150 150 0 0 1 350 200" />
+            <path id="arc2" class="circle-path" d="M 350 200 A 150 150 0 0 1 200 350" />
+            <path id="arc3" class="circle-path" d="M 200 350 A 150 150 0 0 1 50 200" />
+            <path id="arc4" class="circle-path" d="M 50 200 A 150 150 0 0 1 200 50" />
+        </g>
+        <text id="text1" class="tech-text" x="200" y="200">Cloud Native</text>
+        <text id="text2" class="tech-text" x="200" y="200">API</text>
+        <text id="text3" class="tech-text" x="200" y="200">AI</text>
+        <text id="text4" class="tech-text" x="200" y="200">Go</text>
+        <text id="text5" class="tech-text" x="200" y="200">Python</text>
+		<text id="text6" class="tech-text" x="200" y="200">docker</text>
+        <text id="text7" class="tech-text" x="200" y="200">Open Source</text>
+    </g>
+</svg>
