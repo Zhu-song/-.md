@@ -10,43 +10,43 @@
 
 ## My Latest Trending Repos 👇
 
-### [paulops3/social-reporting-tool](https://github.com/paulops3/social-reporting-tool)
+### [yudaprasetya007/routeVSCODE](https://github.com/yudaprasetya007/routeVSCODE)
 
-🗓 **2026-09-08** ｜ ⭐️ **10 stars** ｜ 🗂 **未知**
+🗓 **2026-09-09** ｜ ⭐️ **326 stars** ｜ 🗂 **JavaScript**
 
-Open-source social media reporting bot & compliance auditor. Supports facebook report bot, bot report tiktok, and instagram moderation workflows.
-
----
-
-### [mbailey49/social-reporting-tool](https://github.com/mbailey49/social-reporting-tool)
-
-🗓 **2026-09-08** ｜ ⭐️ **9 stars** ｜ 🗂 **未知**
-
-Open-source social media reporting bot & compliance auditor. Supports facebook report bot, bot report tiktok, and instagram moderation workflows.
+⚡ Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router
 
 ---
 
-### [emmaweb4/social-reporting-tool](https://github.com/emmaweb4/social-reporting-tool)
+### [alphaparkinc/genpark-tree-of-thoughts-mcts-evaluator-skill](https://github.com/alphaparkinc/genpark-tree-of-thoughts-mcts-evaluator-skill)
 
-🗓 **2026-09-08** ｜ ⭐️ **7 stars** ｜ 🗂 **未知**
+🗓 **2026-09-09** ｜ ⭐️ **7 stars** ｜ 🗂 **Python**
 
-Open-source social media reporting bot & compliance auditor. Supports facebook report bot, bot report tiktok, and instagram moderation workflows.
-
----
-
-### [markbailey2/social-reporting-tool](https://github.com/markbailey2/social-reporting-tool)
-
-🗓 **2026-09-08** ｜ ⭐️ **7 stars** ｜ 🗂 **未知**
-
-Open-source social media reporting bot & compliance auditor. Supports facebook report bot, bot report tiktok, and instagram moderation workflows.
+Tree of Thoughts (ToT) Monte Carlo Tree Search (MCTS) reasoning engine with UCB1 exploration-exploitation balance and state backpropagation.
 
 ---
 
-### [tylerrog2/social-reporting-tool](https://github.com/tylerrog2/social-reporting-tool)
+### [Alpha-Park/genpark-content-defined-chunking-cdc-skill](https://github.com/Alpha-Park/genpark-content-defined-chunking-cdc-skill)
 
-🗓 **2026-09-08** ｜ ⭐️ **6 stars** ｜ 🗂 **未知**
+🗓 **2026-09-09** ｜ ⭐️ **7 stars** ｜ 🗂 **Python**
 
-Open-source social media reporting bot & compliance auditor. Supports facebook report bot, bot report tiktok, and instagram moderation workflows.
+FastCDC content-defined chunking (CDC) deduplication engine with rolling hash boundary detection and min/max chunk size limits.
+
+---
+
+### [alphaparkinc/genpark-ppo-clipped-surrogate-engine-skill](https://github.com/alphaparkinc/genpark-ppo-clipped-surrogate-engine-skill)
+
+🗓 **2026-09-09** ｜ ⭐️ **7 stars** ｜ 🗂 **Python**
+
+Proximal Policy Optimization (PPO) clipped surrogate objective engine maintaining stable trust-region policy updates and bounding gradient divergence.
+
+---
+
+### [alphaparkinc/genpark-instruction-selection-max-munch-skill](https://github.com/alphaparkinc/genpark-instruction-selection-max-munch-skill)
+
+🗓 **2026-09-09** ｜ ⭐️ **7 stars** ｜ 🗂 **Python**
+
+Tree-matching Maximal Munch instruction selection engine tiling expression ASTs into target ISA instruction streams.
 
 ---
 
